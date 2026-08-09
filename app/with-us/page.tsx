@@ -6,7 +6,16 @@ import SiteHeader from "@/components/SiteHeader";
 
 export const metadata: Metadata = {
   title: "WITH US",
-  description: "ONE UP과 함께하는 브랜드 파트너를 소개합니다.",
+  description:
+    "원업(ONE UP)과 함께하는 브랜드 파트너를 소개합니다. 국내외 브랜드와 크리에이터를 연결합니다.",
+  alternates: {
+    canonical: "/with-us",
+  },
+  openGraph: {
+    title: "WITH US — ONE UP (원업)",
+    description: "ONE UP과 함께 성장하는 브랜드 파트너",
+    url: "/with-us",
+  },
 };
 
 export default function WithUsPage() {

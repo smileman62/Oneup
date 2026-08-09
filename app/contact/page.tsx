@@ -6,7 +6,16 @@ import SiteHeader from "@/components/SiteHeader";
 export const metadata: Metadata = {
   title: "CONTACT US",
   description:
-    "브랜드 협업, 크리에이터 섭외, 커머스 및 글로벌 진출에 대해 문의해 주세요.",
+    "원업(ONE UP)에 문의하기 — 브랜드 협업, 크리에이터 섭외, 커머스 및 글로벌 진출 상담",
+  alternates: {
+    canonical: "/contact",
+  },
+  openGraph: {
+    title: "CONTACT US — ONE UP (원업)",
+    description:
+      "브랜드 협업, 크리에이터 섭외, 커머스 및 글로벌 진출에 대해 문의해 주세요.",
+    url: "/contact",
+  },
 };
 
 export default function ContactPage() {

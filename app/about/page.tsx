@@ -6,7 +6,17 @@ import SiteHeader from "@/components/SiteHeader";
 
 export const metadata: Metadata = {
   title: "ABOUT",
-  description: "크리에이터와 브랜드의 다음 단계를 만드는 ONE UP",
+  description:
+    "원업(ONE UP) 소개 — 크리에이터와 브랜드의 다음 단계를 만드는 크리에이티브 비즈니스 그룹",
+  alternates: {
+    canonical: "/about",
+  },
+  openGraph: {
+    title: "ABOUT — ONE UP (원업)",
+    description:
+      "원업은 크리에이터의 가능성을 발견하고, 콘텐츠와 비즈니스의 다음 단계를 함께 설계합니다.",
+    url: "/about",
+  },
 };
 
 export default function AboutPage() {
